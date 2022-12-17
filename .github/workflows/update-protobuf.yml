@@ -11,7 +11,7 @@ jobs:
   update-protobuf:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Run scripts
         working-directory: ./tools/
         run: |
